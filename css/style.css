@@ -1,0 +1,606 @@
+
+
+html, body {
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #ecf1f3;
+  overflow-x: hidden;
+}
+
+/* menu */
+#menu {
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  background-color: rgba(7,67,101,.8);;
+  z-index: 10;
+  padding-top: 10px;
+}
+
+#logo.col-md-2,
+#dropdown-menu.col-md-2,
+.menu-link {
+  padding-top: 10px;
+}
+
+.btn-menu {
+  padding-top: 8px;
+}
+
+.form-menu {
+  padding-top: 8px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#menu .dropdown {
+  color: #fff;
+  padding-left: 5%;
+}
+
+#menu #doar {
+  /* color: #fff; */
+  font-family: Roboto, sans-serif;
+  background-color: #68dfde;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  font-weight: 500;
+  padding: 4px 60px;
+  border: 1px;
+}
+
+/* home carousel */
+/* .carousel-wrapper{
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+min-width: 100%;
+min-height: 90%;
+width: auto;
+height: auto; 
+} */
+
+/* .carousel-header,
+.carousel-item,
+.carousel-preview {
+  position: absolute;
+  z-index: 1;
+  transform: skew(-29deg);
+  transform-origin: bottom left;
+  overflow: hidden;
+  top: 0;
+  height: 100%;
+  width: 75%;
+  margin-left: 25%;
+}
+.carousel-header,
+.carousel-item, 
+.carousel-preview {
+  transform: skew(29deg);
+  transform-origin: bottom left;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+} */
+
+.carousel-control-next-icon {
+  display: block;
+  width: 45px;
+  height: 45px;
+}
+
+.carousel-item img {
+  max-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.carousel-item .carousel-caption {
+  text-align: left;
+  color: #fff;
+}
+
+.main-header {
+  width: 100%;
+  margin-left: auto;
+  margin-left: auto;
+
+}
+
+/* section 2 */
+.col-s2 {
+  padding: 60px 30px 60px 30px;
+}
+
+.col-s2 p {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+  width: 80%;
+}
+
+#header-s2 {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.btn-s2 {
+  padding: 15px 90px 15px 90px;
+  font-size: 12px;
+  border-radius: 0;
+  background-color: rgba(255,255,255,0.3);
+  border: solid 1px;
+  border-color: #074365;
+  color: #074365;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-s2:hover {
+  background-color: #074365;
+  color: #fff;
+}
+
+#seja-doador {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/GP0STS0NO_PressMedia-1024x683.jpg);
+}
+
+#trabalhe-conosco {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/GP0STPY45_PressMedia-1024x683.jpg);
+}
+
+#junte-se-ao-time {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/cceff7a3-gp0stqr7r_web_size.jpg);
+}
+
+#crie-sua {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/4dece24d-darkpost_bugio_05-1024x536.jpg);
+}
+
+#faca-voce {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/6a5bb7c7-gp0striau_pressmedia-1024x683.jpg);
+}
+
+#projeto-escola {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/bd32e457-gp042f7_pressmedia-1024x682.jpg);
+}
+
+.card {
+  padding: 20px 10px 20px 10px;
+  margin-top: 30px;
+  height: 360px;
+  box-shadow: 0 0 10px rgba(0,0,0,.35);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 0;
+  position: relative;
+}
+
+.card h4 {
+  font-size: 12px;
+  font-weight: 500;
+  color: gold;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  display: inline-block;
+  padding: 20px 5px 10px 0;
+  transition: color .1s linear;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* .card h4:hover {
+  text-decoration: none;
+} */
+
+.card h3 {
+  position: relative;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 24px;
+  padding-top: 0;
+  max-width: 80%;
+  transition: color .1s linear;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  left: 20px;
+}
+
+.card p {
+  position: relative;
+  left: 20px;
+  font-size: .9375rem;
+  line-height: 1.6;
+}
+
+.btn-card {
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: -115%;
+  width: 90%;
+  padding: 10px 90px 10px 90px;
+  font-size: 16px;
+  border-radius: 0;
+  background-color: rgba(255,255,255,0.3);
+  border: solid 1px;
+  border-color: #fff;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.card-cover {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-position: top;
+  background-image: linear-gradient(180deg,rgba(0,0,0,0.2),rgba(0,0,0,0));
+}
+
+.card-cover p {
+  display: none;
+}
+
+.card-cover:hover {
+  background: linear-gradient(180deg,rgba(51,51,51,.6),rgba(250,247,236,.9),rgba(255,255,255,.8));
+}
+
+.card-cover:hover .btn-card {
+  background-color: #f36d3a;
+  border-color: #f36d3a;
+}
+
+#trabalhe-conosco .card-cover:hover .btn-card,
+#junte-se-ao-time .card-cover:hover .btn-card {
+  margin-top: -50%;
+}
+
+#seja-doador .card-cover:hover .btn-card {
+  margin-top: -64%;
+}
+
+.card-cover:hover p {
+  display: block;
+  max-width: 85%;
+}
+
+#mostrar-mais-cards {
+  margin-top: 30px;
+  margin-left: 15px;
+} 
+
+.hidden {
+  display: none;
+}
+
+#crie-sua .card-cover .btn-card {
+  margin-bottom: -99%;
+}
+
+#crie-sua .card-cover:hover .btn-card,
+#faca-voce .card-cover:hover .btn-card {
+  margin-top: -63%;
+}
+
+#projeto-escola .card-cover:hover .btn-card {
+  margin-top: -50%;
+}
+
+/* News section */
+
+#header-blog {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.new-image {
+  width: 100%;
+  padding: 10px;
+}
+
+a.news-tags {
+  color: #2980b9;
+  position: relative;
+  padding: 10px;
+  margin-top: 20%;
+}
+
+h4.new-heading {
+  color: #000;
+  text-decoration: #000;
+  padding-top: 10px;
+}
+
+#news h6 {
+  color: #666;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#news p {
+  max-width: 80%;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+#ler-mais {
+  margin-top: 15px;
+  margin-left: 25px;
+  padding: 15px 100px 15px 100px;
+}
+
+/* section 4 */
+
+.header-s4 {
+  margin-top: 80px;
+}
+
+.header-s4 h3 {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.header-s4 p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+#parem-a-vale {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2019/01/78ef8033-gp0stsy88_medium_res-1024x575.jpg);
+}
+
+#sem-floresta {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2019/01/2882e1c2-gp0stpoc0-1024x684.jpg);
+}
+
+#defenda-os-corais {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/GP0STQHBP_Medium_res-1024x577.jpg);
+}
+
+#chega-de-veneno {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/50ea4160-gp0stp6fe_pressmedia-1024x768.jpg);
+}
+
+#proteja-a-antartida {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/GP018I4_PressMedia-1024x683.jpg);
+}
+
+#petroleo-na-amazonia {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/12/ff643fc6-20180925_amazon_0027-1024x683.jpg);
+}
+
+#reduza-seu-consumo {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/4b153235-gp0stpt7t_medium_res-1024x683.jpg);
+}
+
+#chega-de-destruir {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/11/1393d59d-gp0stsk0b-1024x683.jpg);
+}
+
+#salve-o-coracao {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/GP0STPOB0_PressMedia-1024x683.jpg);
+}
+
+#chega-de-madeira {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/GP04X4K_PressMedia-1024x683.jpg);
+}
+
+#segure-a-linha {
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/11/2b37af3f-gp0stsncg-1024x683.jpg);
+} 
+
+#defenda-os-corais .card-cover .btn-card,
+#chega-de-veneno .card-cover .btn-card,
+#petroleo-na-amazonia .card-cover .btn-card {
+  margin-bottom: -99%; 
+}
+
+#chega-de-veneno .card-cover:hover .btn-card,
+#defenda-os-corais .card-cover:hover .btn-card {
+  margin-top: -37%; 
+}
+
+#proteja-a-antartida .card-cover:hover .btn-card {
+  margin-top: -23%;
+}
+
+#mostrar-mais-cards-s4,
+#mostrar-mais-cards-s4-2 {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+#reduza-seu-consumo .card-cover .btn-card,
+#chega-de-destruir .card-cover .btn-card,
+#salve-o-coracao .card-cover .btn-card {
+  margin-bottom: -99%; 
+}
+
+#reduza-seu-consumo .card-cover:hover .btn-card,
+#salve-o-coracao .card-cover:hover .btn-card {
+  margin-top: -37%; 
+}
+
+#chega-de-destruir .card-cover:hover .btn-card {
+  margin-top: -50%;
+}
+
+#chega-de-madeira .card-cover:hover .btn-card {
+  margin-top: -37%; 
+}
+
+#segure-a-linha .card-cover:hover .btn-card {
+  margin-top: -64%;
+}
+
+/* Greepeace */
+
+#greenpeace-header {
+  padding-top: 120px;
+}
+
+#greenpeace-header p {
+  padding-top: 20px;
+  font-size: 18px;
+  max-width: 68%;
+  font-weight: 300;
+}
+
+#greenpeace .img-fluid {
+  max-width: 45%;
+  padding: 10px 5px;
+}
+
+#greenpeace h5 {
+  padding: 15px 5px;
+}
+
+#greenpeace .col-md-3>p {
+  font-weight: 300;
+}
+
+#greenpeace .col-md-3>a {
+  text-decoration: none;
+  color:rgb(7, 67, 101);
+  border-bottom: 1px solid rgb(7, 67, 101); 
+} 
+
+/* happy */
+
+#happy .container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 100px;
+}
+
+.bkg-img {
+  height: 500px;
+  background-image: url(https://storage.googleapis.com/planet4-brasil-stateless/2018/07/GP0STQX0A_edited-e1532367336723.jpg);
+  background-position: center; 
+  background-size: cover;
+  position: relative;
+}
+
+.bkg-img-overlay {
+  background-color: rgba(240, 240, 240, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.bkg-img-overlay h3 {
+  margin-top: 18%;
+  margin-left: 8%;
+  margin-bottom: 0;
+  font-size: 37px;
+}
+
+.bkg-img-overlay p {
+  margin-left: 8%;
+  font-size: 20px;
+}
+
+.bkg-img-overlay input {
+  padding: 5px 200px 5px 0;
+  margin-top: 10px;
+}
+
+.bkg-img-overlay .col-md-4 {
+  margin-left: 8%;
+}
+
+small {
+  color: #074365;
+  font-weight: 600;
+}
+
+.btn-happy {
+  padding: 1px 25px 1px 25px;
+  margin-left: 8%;
+  margin-top: 15px;
+  font-size: 20px;
+  border-radius: 0;
+  background-color: #F36D3A;
+  border: solid 1px;
+  border-color: #F36D3A;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.btn-happy:hover {
+  background: #e02d00;
+  color: #FFF;
+  border: 2px solid #e02d00;
+}
+
+/* footer */
+
+#footer {
+  background-color: #074365;
+  padding-top: 50px;
+}
+
+.social-media {
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5vw 0 5vw;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 60px;
+}
+
+.white-links p, 
+.white-links a {
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+
+.grey-links p, 
+.grey-links a {
+  color: #ccc;
+  font-size: 15px;
+}
+
+#licenca,
+#cnpj,
+#cc-greenpeace {
+  color: #ccc;
+  font-weight: 300;
+  text-align: center;
+}
+
+#licenca a {
+  color: #FFF;
+}
