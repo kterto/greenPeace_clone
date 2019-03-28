@@ -1,7 +1,6 @@
 
 
 html, body {
-  height: 100%;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -23,24 +22,35 @@ html, body {
 #dropdown-menu.col-md-2,
 .menu-link {
   padding-top: 10px;
+  padding-right: 0;
 }
 
 .btn-menu {
-  padding-top: 8px;
+  padding-top: 5px;
+  transform: translateX(-42px);
 }
 
 .form-menu {
-  padding-top: 8px;
+  padding-top: 5px;
+}
+
+#menu .form-menu .form-inline input {
+  height: 37px;
+  width: 300px;
+  transform: translateX(-42px);
 }
 
 #menu a {
   text-decoration: none;
   color: #fff;
+  padding-right: 0;
 }
 
 #menu .dropdown {
   color: #fff;
-  padding-left: 5%;
+  padding-left: 2%;
+  font-weight: 300;
+  padding-right: 0;
 }
 
 #menu #doar {
@@ -53,8 +63,8 @@ html, body {
   -ms-border-radius: 0;
   -o-border-radius: 0;
   font-weight: 500;
-  padding: 4px 60px;
-  border: 1px;
+  padding: 4px 67px;
+  height: 37px;
 }
 
 /* home carousel */

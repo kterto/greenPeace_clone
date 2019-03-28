@@ -1,12 +1,7 @@
-// (function () {
-//   "use strict";
-//   // codigo
-// })()
-
-// IIFE
-
+(function () {
+   "use strict";
 /* =============================================== 
-					          Home
+                      Home
 ===============================================  */
 
 // $(window).on('load', function(){
@@ -28,6 +23,10 @@ $('#mostrar-mais-cards').on("click", function() {
   $('#crie-sua').removeClass("hidden");
   $('#faca-voce').removeClass("hidden");
   $('#projeto-escola').removeClass("hidden");
+  // $('#s2 .col-md-4').animate({
+  //   paddingLeft: "-=13px",
+  //   paddingRight: "-=13px"
+  // }, 1000);
 })
 
 /* =============================================== 
@@ -42,11 +41,15 @@ $('#mostrar-mais-cards-s4').on("click", function(ev){
     $('#chega-de-destruir').removeClass("hidden");
     $('#salve-o-coracao').removeClass("hidden");
     state.counter = 1;
-    // console.log("oi bb!");
   } else if (state.counter === 1) {
     $('#mostrar-mais-cards-s4').addClass("hidden");
     $('#chega-de-madeira').removeClass("hidden");
-    $('#segure-a-linha').removeClass("hidden");
-    // console.log("oi bb!");    
+    $('#segure-a-linha').removeClass("hidden"); 
   } else {}
 })
+ })()
+
+// IIFE
+
+
+
