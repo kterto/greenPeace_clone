@@ -67,6 +67,65 @@ html, body {
   height: 37px;
 }
 
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(7,67,101,.8);
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+#navbar-dropdown {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.country-dropdown-toggle {
+  border: none;
+  background: transparent;
+  padding: 0 0 0 30px;
+  position: relative;
+  line-height: 60px;
+  /* top: 13px; */
+  color: #FFF;
+}
+
+.nav-link {
+  line-height: 60px;
+  padding: 0 16px;
+  color: #FFF;
+}
+
+.btn-nav {
+  line-height: 34px;
+  margin: 12px 30px 12px 0;
+  padding: 0px 60px 0px 60px;
+  background-color: #68dfde;
+  border-radius: 0;  
+}
+
+.top-nav-search-btn {
+  position: absolute;
+  border: none;
+  background: transparent;
+  color: #074365;
+  right: 16px;
+  top: 17px;
+  font-size: 1.25rem;
+  line-height: 26px;
+}
+
+.form-control {
+  border-radius: 0;
+  min-width: 20%;
+}
+
+
 /* home carousel */
 /* .carousel-wrapper{
 position: fixed;
