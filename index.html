@@ -21,42 +21,15 @@
 
   <!-- custom css -->
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- responsive css -->
+  <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 
 <body>
   
   <!-- menu -->
-  <!-- <div id="menu">
-    <div class="container-fluid">
-      <div class="row">
-        logo
-        <div class="col-md-2" id="logo">
-          <img src="https://www.greenpeace.org/brasil/wp-content/themes/planet4-master-theme/images/gp-logo.svg" alt="logo" class="img-fluid">
-        </div>
-
-        <div class="col-md-2 dropdown" id="dropdown-menu">Brasil</div>
-        <div class="col-md-2 menu-link">
-          <a href="">PARTICIPE</a>
-        </div>
-        <div class="col-md-2 menu-link">
-          <a href="">EXPLORE</a>
-        </div>
-        <div class="col-md-2 btn-menu">
-          <button class="btn btn-general" id="doar">DOAR</button>
-        </div>
-        <div class="col-md-2 form-menu">
-          <form action="" class="form-inline">
-            <input type="search" placeholder="Busca">
-          </form>
-        </div>
-      </div>
-    </div>    
-  </div> -->
-
-  <!-- <div style="display: flex; flex-direction: row; height: 100%; z-index: 10;">
-    <div style="flex: 4; background-color: aquamarine"></div>
-    <div style="flex: 6; background-color: chartreuse"></div>
-  </div> -->
   <nav class="top-navigation navbar" id="header">
     <a href="">
       <img src="https://www.greenpeace.org/brasil/wp-content/themes/planet4-master-theme/images/gp-logo.svg" alt="logo" class="img-fluid">
@@ -89,12 +62,26 @@
     </ul>
 
     <form action="" class="form nav-item">
-      <input type="search" class="form-control" placeholder="Busca">
+      <input type="search" class="form-control header-search" placeholder="Busca">
       <button class="top-nav-search-btn" type="submit">
         <i class="fa fa-search"></i>
       </button>
     </form>
   </nav>
+
+  <!-- small menu -->
+  <nav class="top-navigation navbar" id="small-header">
+    <a href="" class="btn sd-btn-menu nav-item">
+      MENU
+    </a>
+    <a href="" class="nav-item sd-logo">
+      <img src="https://www.greenpeace.org/brasil/wp-content/themes/planet4-master-theme/images/gp-logo.svg" alt="logo" class="img-fluid">
+    </a>
+    <a href="" class="nav-item sd-search">
+      <i class="fa fa-search"></i>
+    </a>
+  </nav>
+
   <!-- menu ends -->
 
   <!-- home  -->
@@ -149,12 +136,12 @@
   <section id="s2">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-s2">
+        <div class="col-md-6  col-sm-12 col-s2">
           <h3>Você tem o poder</h3>
           <p>Se você acredita em um mundo saudável, pacífico, digno e justo para todos, então estamos ao seu lado para alcançá-lo, seja agindo nas ruas, na internet, em pequenas comunidades, nas grandes salas do poder ou nos locais mais remotos do planeta. Se tem ideias para chegarmos lá mais rápido, queremos aprender com você. Vamos sonhar, planejar e agir juntos.</p>
           <a href=""><button class="btn btn-secondary btn-s2">Participe</button></a> 
         </div>
-        <div class="col-md-6 col-s2">
+        <div class="col-md-6 col-sm-12 col-s2">
           <h3>Mude o Mundo</h3>
           <p>Atuamos na defesa do planeta por diferentes meios, promovendo conhecimento e conscientização pública, mobilização social e articulação política para diversas causas, sempre de forma independente. Só assim podemos denunciar os crimes ambientais e confrontar governos e empresas que ameaçam o meio ambiente. Conheça o trabalho que realizamos no Brasil.</p>
           <a href=""><button class="btn btn-secondary btn-s2">Saiba Mais</button></a> 
@@ -164,7 +151,7 @@
           <p>Você pode se envolver ainda mais com este trabalho! Veja como:</p>
         </div>
         <!-- card 01 -->
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
           <div class="card" id="seja-doador">
             <div class="card-cover">
               <a href=""><h4>#Greenpeace</h4></a><a href=""><h4>#Mobilização</h4></a> 
@@ -175,7 +162,7 @@
           </div>
         </div>
         <!-- card 02 -->
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
           <div class="card" id="trabalhe-conosco">
             <div class="card-cover">
               <h4>#Greenpeace</h4>
@@ -186,7 +173,7 @@
           </div>
         </div>
         <!-- card 03 -->
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
           <div class="card" id="junte-se-ao-time">
             <div class="card-cover">
               <h4>#Mobilização</h4>
@@ -200,7 +187,7 @@
         <button class="btn btn-secondary btn-s2" id="mostrar-mais-cards">Mostrar Mais</button>
         <!-- hidden cards by default -->
         <!-- card 04 -->
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
           <div class="card hidden" id="crie-sua">
             <div class="card-cover">
               <a href=""><h4>#Mobilização</h4></a> 
@@ -211,7 +198,7 @@
           </div>
         </div> 
         <!-- card 05 -->
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
           <div class="card hidden" id="faca-voce">
             <div class="card-cover">
               <a href=""><h4>#Mobilização</h4></a> 
@@ -222,7 +209,7 @@
           </div>
         </div> 
         <!-- card 06 -->
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
           <div class="card hidden" id="projeto-escola">
             <div class="card-cover">
               <a href=""><h4>#Mobilização</h4></a> 

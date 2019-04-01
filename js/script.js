@@ -20,6 +20,7 @@ $('.carousel').carousel({
 
 $('#mostrar-mais-cards').on("click", function() {
   $('#mostrar-mais-cards').addClass("hidden");
+  $('#junte-se-ao-time').css("display", "flex");
   $('#crie-sua').removeClass("hidden");
   $('#faca-voce').removeClass("hidden");
   $('#projeto-escola').removeClass("hidden");

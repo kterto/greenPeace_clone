@@ -27,7 +27,7 @@ html, body {
 
 .btn-menu {
   padding-top: 5px;
-  transform: translateX(-42px);
+  /* transform: translateX(-42px); */
 }
 
 .form-menu {
@@ -101,6 +101,11 @@ html, body {
   color: #FFF;
 }
 
+.nav-link:hover {
+  line-height: 58px;
+  border-bottom: solid 2px #FFF;
+}
+
 .btn-nav {
   line-height: 34px;
   margin: 12px 30px 12px 0;
@@ -120,9 +125,10 @@ html, body {
   line-height: 26px;
 }
 
-.form-control {
+.header-search {
   border-radius: 0;
   min-width: 20%;
+  width: 17vw;
 }
 
 

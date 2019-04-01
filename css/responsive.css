@@ -1,0 +1,145 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+  .btn-nav {
+    margin: 12px 15px 12px 0;
+  }
+
+  .col-s2 {
+    padding: 50px 30px 50px 30px;
+  }
+
+  .col-s2 p {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    color: #1a1a1a;
+    width: 80%;
+  }
+
+  #trabalhe-conosco .card-cover .btn-card,
+  #junte-se-ao-time .card-cover .btn-card,
+  #seja-doador .card-cover .btn-card {
+    margin-top: 28%;
+  }
+
+}
+
+@media (min-width: 992px) {
+    #small-header {
+        display: none;
+    }
+    
+    #header {
+      display: flex;
+    }
+}
+
+@media (max-width: 992px) {
+    #small-header {
+      display: flex;
+      padding: 0 10px;
+      position: fixed;
+      background-color: rgba(7,67,101,.8);
+      z-index: 10;
+      width: 100%;
+    }
+    
+    #header {
+      display: none;
+    }
+    /* #6c0 */
+    .sd-logo,
+    .sd-search {
+      line-height: 60px;
+    }
+
+    .sd-btn-menu {
+      line-height: 40px;
+      border: 10px 0;
+      padding: 0 16px;
+      background-color: #074365;
+      color: #FFF;
+      border-radius: 0;
+    }
+
+    .sd-btn-menu:hover {
+      color: #FFF;
+      background-color: #042233;
+    }
+
+    #small-header .img-fluid {
+      max-width: 80%;
+    }
+
+    .sd-search {
+      color: #6c0;
+      font-size: 1.7rem;
+    }
+
+    .sd-search:hover {
+      color: #6c0;
+    }
+
+    .col-s2 {
+      padding: 50px 30px 50px 30px;
+      margin: 0 1em; 
+    }
+
+    .col-s2 p {
+      padding: 15px 0px 30px 0px;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 16px;
+      color: #1a1a1a;
+      width: 100%;
+    }
+
+    #s2 .col-md-6 {
+      max-width: none;
+      flex-basis: 100%;
+    }
+
+    #s2 .col-md-4 {
+      /* flex: 0 0 48%; */
+      min-width: 50%;
+    }
+
+    #junte-se-ao-time {
+      display: none;
+    }
+
+    #mostrar-mais-cards {
+      position: relative;
+      width: 48%;
+    }
+
+    #seja-doador .card-cover .btn-card,
+    #trabalhe-conosco .card-cover .btn-card,
+    #junte-se-ao-time .card-cover .btn-card,
+    #faca-voce .card-cover .btn-card, 
+    #seja-doador .card-cover:hover .btn-card{
+      margin-bottom: -125%;
+    }
+
+    #crie-sua .card-cover .btn-card {
+      margin-bottom: -108%;
+    }
+
+    #seja-doador .card-cover:hover .btn-card {
+      margin-bottom: -121%;
+    }
+
+    #trabalhe-conosco .card-cover:hover .btn-card {
+      margin-bottom: -122%;
+    }
+
+    #junte-se-ao-time .card-cover:hover .btn-card {
+      margin-bottom: -107%;
+    }
+
+    #crie-sua .card-cover:hover .btn-card {
+      margin-bottom: -103%
+    }
+
+}
